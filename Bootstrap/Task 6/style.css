@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar ul li{
+    margin: 20px;
+}
+
+#carousel-section{
+    width: 100%;
+}
+
+#registration-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.h2-div{
+    margin-bottom: 3rem;
+}
+
+#registration-section{
+    width: 100%;
+}
+
+#home-section{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem
+}
+
+#mentor-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.mentor-head{
+    text-align: center;
+}
+
+.text-container h3, .text-container span, .text-container button{
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+#footer-section{
+    width: 100%;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+    background-color: aqua;
+}
+
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+i{
+    margin-left: 2rem;
+}

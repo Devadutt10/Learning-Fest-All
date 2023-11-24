@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+
+
+img{
+    width: 200px;
+    
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    list-style: none;
+}
